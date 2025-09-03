@@ -1,0 +1,42 @@
+{
+  "name": "create-revite",
+  "version": "1.0.0",
+  "description": "Create React + Vite + Tailwind projects quickly",
+  "main": "index.js",
+  "bin": {
+    "create-revite": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo 'Preparing for publish...'"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwind",
+    "cli",
+    "scaffold",
+    "template"
+  ],
+  "author": "Justin Karso",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "prompts": "^2.4.2",
+    "fs-extra": "^11.1.1",
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinkarso/create-revite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinkarso/create-revite/issues"
+  },
+  "homepage": "https://github.com/justinkarso/create-revite#readme"
+}
