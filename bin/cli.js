@@ -137,7 +137,7 @@ async function createViteProject(projectPath, template, projectName) {
 
     child.on('close', (code) => {
       if (code !== 0) {
-        reject(new Error(`Vite creation failed with exit code ${code}`));
+        reject(new Error(`Vite creation failed with exit code ${code}. Please check your internet connection and try again.`));
       } else {
         resolve();
       }
