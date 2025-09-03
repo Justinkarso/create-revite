@@ -2,6 +2,8 @@
 
 A CLI tool to quickly scaffold React + Vite + Tailwind CSS projects.
 
+![Hero](https://i.imgur.com/e8I3uwx_d.webp?maxwidth=760&fidelity=grand)
+
 ## Usage
 
 You can create a new project using any of these commands:
