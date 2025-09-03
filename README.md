@@ -149,7 +149,7 @@ npx create-revite my-app --no-tailwind
 
 ## License
 
-MIT © [Your Name]
+MIT © Justin Karso
 
 ## Changelog
 
