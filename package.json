@@ -1,6 +1,6 @@
 {
   "name": "create-revite",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Create React + Vite + Tailwind projects quickly",
   "main": "index.js",
   "bin": {
