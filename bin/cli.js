@@ -14,7 +14,7 @@ const program = new Command();
 program
   .name('create-revite')
   .description('Create React + Vite + Tailwind projects')
-  .version('1.0.1')
+  .version('1.1.2')
   .argument('[project-directory]', 'project directory name')
   .option('-ts, --typescript', 'use TypeScript template')
   .option('--no-tailwind', 'skip Tailwind CSS installation')
@@ -132,10 +132,11 @@ async function createViteProject(projectPath, template, projectName) {
   return new Promise((resolve, reject) => {
     const targetName = projectPath === process.cwd() ? '.' : projectName;
     const args = [
+      '--yes',  // Allow npx to install create-vite if not present
       'create-vite@latest',
       targetName,
       '--template', template,
-      '--yes'  // Force non-interactive mode
+      '--yes'  // Force non-interactive mode for create-vite
     ];
 
     const child = spawn('npx', args, {
